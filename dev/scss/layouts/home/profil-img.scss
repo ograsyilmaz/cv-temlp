@@ -1,0 +1,46 @@
+.profile-img {
+    max-width: 600px;
+    width: 100%;
+    background-color: #613bbb;
+    // height: 100%;
+    // position: fixed;
+    height: 100vh;
+    position: absolute;
+    
+}
+.profik-img {
+    // margin-top: 96px;
+    // margin-left: 160px;
+    z-index: 3;
+    position: absolute;
+    padding-left: 20px;
+}
+
+.draw {
+    position: relative;
+    padding-top: 96px;
+    padding-left: 120px;
+}
+
+.rectangle {
+    width: 507px;
+    height: 697px;
+    border: solid 4px #ffffff;
+    padding-top: 20px;
+    // margin-top: 116px;
+    // margin-left: 140px;
+    z-index: 1;
+    position: absolute;
+     margin-top: 20px;
+}
+
+.rectangle-2 {
+    width: 280px;
+    height: 120px;
+    border: solid 20px #4caf50;
+ margin-top:20px;
+    position: absolute;
+    z-index: 2;
+  margin-left: 281px;
+    // margin-left: 421px;
+}
