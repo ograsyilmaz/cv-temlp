@@ -4,10 +4,11 @@
     background-color: #613bbb;
     height: 100vh;
     position: relative;
+    min-width: 440px;
 }
 
 .profik-img {
-    margin-top: -145px;
+    margin-top: -96px;;
     margin-left: 20px;
 }
 
@@ -22,20 +23,29 @@
 }
 
 .rectangle {
-    width: 507px;
-    height: 697px;
+    position: relative;
+    width: 80%;
     border: solid 4px #ffffff;
-    
-     position: absolute;
-    top:116px;
+    top: 116px;
     left: 140px;
 }
 
-.rectangle-2 {
-    width: 280px;
-    height: 120px;
-    border: solid 20px #4caf50;
-    // position: absolute;
+.rectangle:after {
+    content: "";
+    display: block;
+    padding-bottom: 8%;
+}
 
+.rectangle-2 {
+    position: relative;
+    width: 65%;
+    border: solid 20px #4caf50; // position: absolute;
     margin-left: 317px;
+    z-index: -1;
+}
+
+.rectangle-2:after {
+    content: "";
+    display: block;
+    padding-bottom: 8%;
 }
