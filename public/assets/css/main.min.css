@@ -387,6 +387,9 @@ textarea {
   display: block;
   padding-bottom: 8%; }
 
+.draw, .profik-img {
+  position: absolute; }
+
 .menu {
   background-color: #fff;
   margin-left: 2.083333333333333%; }
@@ -418,35 +421,42 @@ textarea {
   padding-left: 16px; }
 
 .profile-img {
-  max-width: 600px;
-  width: 100%;
+  width: 50%;
   background-color: #613bbb;
   height: 100vh;
-  position: relative;
   min-width: 440px; }
 
+.profile {
+  overflow: auto; }
+
 .profik-img {
-  margin-top: -96px;
-  margin-left: 20px; }
+  top: 96px;
+  max-width: 100%;
+  height: auto;
+  right: 15%; }
 
 .draw {
-  position: absolute;
   padding-left: 120px;
   top: 0;
   width: 100%;
   height: 100%;
   padding-right: 5px; }
 
+.rectangle, .rectangle-2 {
+  position: absolute;
+  top: 116px; }
+
 .rectangle {
-  position: relative;
   width: 80%;
-  border: 4px solid #fff;
-  top: 116px;
-  left: 140px; }
+  left: 17.5%;
+  height: 697px;
+  border-bottom: 4px solid #fff;
+  border-left: 4px solid #fff;
+  border-top: 4px solid #fff;
+  border-right: 4px solid transparent; }
 
 .rectangle-2 {
-  position: relative;
   width: 65%;
   border: 20px solid #4caf50;
-  margin-left: 317px;
+  right: 69px;
   z-index: -1; }

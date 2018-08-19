@@ -1,15 +1,22 @@
 .profile-img {
-    max-width: 600px;
-    width: 100%;
+    // max-width: 600px;
+    width: 50%;
     background-color: #613bbb;
     height: 100vh;
-    position: relative;
+    // position: relative;
     min-width: 440px;
+}
+.profile{
+    overflow: auto;
 }
 
 .profik-img {
-    margin-top: -96px;;
-    margin-left: 20px;
+    top: 96px;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    // padding-left: 160px;
+    right: 15%;
 }
 
 .draw {
@@ -23,11 +30,17 @@
 }
 
 .rectangle {
-    position: relative;
+    // position: relative;
+    position: absolute;
     width: 80%;
-    border: solid 4px #ffffff;
+    
     top: 116px;
-    left: 140px;
+    left: 17.50%;
+    height: 697px;
+    border-bottom: 4px solid #fff;
+    border-left: 4px solid #fff;
+    border-top: 4px solid #fff;
+    border-right: 4px solid transparent;
 }
 
 .rectangle:after {
@@ -37,10 +50,16 @@
 }
 
 .rectangle-2 {
-    position: relative;
+    // position: relative;
+    position: absolute;
     width: 65%;
     border: solid 20px #4caf50; // position: absolute;
-    margin-left: 317px;
+    // margin-left: 317px;
+    // z-index: -1;
+     top: 116px;
+    // left: 160px;
+
+    right: 69px;
     z-index: -1;
 }
 
