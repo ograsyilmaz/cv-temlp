@@ -433,7 +433,8 @@ textarea {
   top: 96px;
   max-width: 100%;
   height: auto;
-  right: 15%; }
+  padding-left: 22%;
+  padding-right: 5%; }
 
 .draw {
   padding-left: 120px;
