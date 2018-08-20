@@ -427,7 +427,8 @@ textarea {
   min-width: 440px; }
 
 .profile {
-  overflow: auto; }
+  overflow: auto;
+  overflow-x: hidden; }
 
 .profik-img {
   top: 96px;
