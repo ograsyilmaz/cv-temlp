@@ -299,6 +299,12 @@ img {
 .b-second {
   border-color: #c40f17 !important; }
 
+.profik-img, .rectangle {
+  border-bottom: 4px solid #fff;
+  border-left: 4px solid #fff;
+  border-top: 4px solid #fff;
+  border-right: 4px solid transparent; }
+
 .fs-10 {
   font-size: 10px !important; }
 
@@ -382,11 +388,6 @@ textarea {
   padding: 40px 0;
   position: relative; }
 
-.rectangle-2:after, .rectangle:after {
-  content: "";
-  display: block;
-  padding-bottom: 8%; }
-
 .draw, .profik-img {
   position: absolute; }
 
@@ -434,8 +435,13 @@ textarea {
   top: 96px;
   max-width: 100%;
   height: auto;
-  padding-left: 22%;
-  padding-right: 5%; }
+  padding: 20px 5% 20px 20px;
+  right: 5px; }
+
+.rectangle-2:after, .rectangle:after {
+  content: "";
+  display: block;
+  padding-bottom: 8%; }
 
 .draw {
   padding-left: 120px;
@@ -451,14 +457,10 @@ textarea {
 .rectangle {
   width: 80%;
   left: 17.5%;
-  height: 697px;
-  border-bottom: 4px solid #fff;
-  border-left: 4px solid #fff;
-  border-top: 4px solid #fff;
-  border-right: 4px solid transparent; }
+  height: 697px; }
 
 .rectangle-2 {
   width: 65%;
   border: 20px solid #4caf50;
-  right: 69px;
+  right: 15px;
   z-index: -1; }

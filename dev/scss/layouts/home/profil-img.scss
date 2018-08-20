@@ -20,7 +20,41 @@
     padding-left: 22%;
     padding-right: 5%;
     // right: 15%;
+
+
+
+    border-bottom: 4px solid #fff;
+    border-left: 4px solid #fff;
+    border-top: 4px solid #fff;
+    border-right: 4px solid transparent;
+
+
+    // top: 96px;
+    // max-width: 100%;
+    // height: auto;
+    // margin-left: 14%;
+    // /* padding-right: 5%; */
+    // padding-left: 20px;
+    // padding-top: 20px;
+    // padding-bottom: 20px;
+    // /* margin-right: 25px; */
+    // right: 4%;
+
+
+
+
+    top: 96px;
+    max-width: 100%;
+    height: auto;
+    /* margin-left: 14%; */
+    /* right: 4%; */
+    padding: 20px 5% 20px 20px;
+    /* left: 5px; */
+    /* margin-right: 4%; */
+    right: 5px;
+
 }
+
 
 .draw {
     position: absolute;
@@ -61,8 +95,8 @@
     // z-index: -1;
      top: 116px;
     // left: 160px;
-
-    right: 69px;
+    right: 15px;
+    
     z-index: -1;
 }
 
